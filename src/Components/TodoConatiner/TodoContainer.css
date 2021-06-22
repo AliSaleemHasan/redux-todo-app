@@ -1,0 +1,16 @@
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  min-width: 50vw;
+  height: 60vh;
+
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.ant-modal-content {
+  border-radius: 25px;
+}

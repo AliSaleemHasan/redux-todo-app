@@ -1,0 +1,33 @@
+.todo{
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #FDFDFD;
+}
+.todo__canceled{
+    background-color: #EB3737;
+}
+.todo__finished{
+    background-color: #1DE90F;
+}
+
+.todo__finished .ant-list-item-meta *,.todo__canceled .ant-list-item-meta *{
+    color:#fdfdfd;
+}
+/* make flex expand 0  after deleting the icons */
+.todo__canceled .ant-list-item-action,.todo__finished .ant-list-item-action{
+    flex: 0 0;
+}
+
+
+
+/* remove ems betweens actions */
+.todo__canceled .deleted , .todo__canceled .ant-list-item-action-split
+,.todo__finished .deleted , .todo__finished .ant-list-item-action-split{
+display: none;
+}
+
+.button__green{
+    background-color: #1DE90F;
+}

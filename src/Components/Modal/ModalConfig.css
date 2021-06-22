@@ -1,0 +1,24 @@
+.modalContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+#modalContent__input {
+  background-color: #f3f2f7;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 1vw;
+}
+.modalCotnent-button {
+  border-radius: 10px;
+  margin: 0 5px;
+}
+.button-1 {
+  color: #fde5e5;
+  background-color: #fea8a8;
+}
+
+.button-2 {
+  color: #6fcdbc;
+  background-color: #def7ef;
+}
